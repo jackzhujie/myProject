@@ -6,7 +6,7 @@ import test1 from '../views/test1.vue'
 Vue.use(VueRouter)
   const routes: Array<RouteConfig> = [
   {
-    path: '/test1',
+    path: '/',
     name: 'test1',
     component: test1
   },

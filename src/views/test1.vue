@@ -1,23 +1,28 @@
 <template>
 	<swiper class="test1" ref="mySwiper" :options="swiperOption">
-		<swiper-slide>Slide 1</swiper-slide>
-		<swiper-slide>
-			test121212
-		</swiper-slide>
 		<swiper-slide>
 			<div class="content">
 				<div class="ani reveal-top"
-					swiper-animate-effect="bounceInRight"
-					swiper-animate-duration="1.5s"
-					swiper-animate-delay="1"
+					 swiper-animate-effect="bounceInRight"
+					 swiper-animate-duration="1.5s"
+					 swiper-animate-delay="1"
 
 				>
 					<div class="test-box">
 						我是测试
 					</div>
 				</div>
-				<div class="reveal-top">
-					<div class="text-box">
+			</div>
+		</swiper-slide>
+		<swiper-slide>
+			<div class="content">
+				<div class="ani reveal-top"
+					 swiper-animate-effect="bounceInLeft"
+					 swiper-animate-duration="2.5s"
+					 swiper-animate-delay="1.5"
+
+				>
+					<div class="test-box">
 						我是测试1234
 					</div>
 				</div>
@@ -89,12 +94,7 @@
 			height: 200px;
 			color: white;
 			font-size: 40px;
-			&:nth-child(1) {
-				background-color: #42b983;
-			}
-			&:nth-child(2) {
-				background-color: aqua;
-			}
+			background-color: aqua;
 		}
 	}
 </style>
